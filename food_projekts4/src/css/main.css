@@ -1,0 +1,177 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   line-height: 1.6;
+   color: #ffffff;
+   background-color: beige(153, 153, 153);
+}
+
+header {
+   background-color: rgba(145, 171, 110, 1);
+   color: white;
+   padding: 10px;
+}
+
+.header {
+
+   display: flex;
+   align-items: center;
+   height: 110px;
+   margin: 10px;
+   border-radius: 30px;
+}
+.header > h1 {
+   margin: 0;
+   font-size: 2.5em;
+   font-weight: 700;
+   text-align: center;
+}
+
+#icon {
+   width: 80px;
+   height: 80px;
+   transform: rotate(45deg);
+
+}
+
+.name {
+   margin: 0;
+   font-size: 2em;
+}
+
+.nav-bar {
+   margin-left: auto;
+   display: flex;
+}
+
+.nav {
+   color: white;
+   margin-left: 20px;
+   padding: 8px 16px;
+   border-radius: 5px;
+}
+
+.nav:hover {
+   background-color: rgba(128, 152, 97, 1);
+}
+
+#hero-img {
+   width: 100%;
+   max-height: 600px;
+   object-fit: cover;
+   filter: brightness(50%);
+   margin-top: 20px;
+   border-radius: 20px;
+}
+
+.name-box {
+   width: auto;
+   height: 70px;
+   background-color: rgba(145, 171, 110, 1);
+   padding: 10px;
+   margin: 10px;
+   border-radius: 30px;
+   text-align: center;
+}
+
+.name-box > h2 {
+   color: white;
+   margin: 0;
+   line-height: 50px;
+}
+
+
+
+.par-sistema {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+#text-sistema1, #text-sistema2 {
+   background-color: rgba(145, 171, 110, 1);
+   padding: 20px;
+   margin: 10px;
+   border-radius: 8px;
+   width: 90%;
+   max-width: 1080px;
+   box-sizing: border-box;
+}
+
+#text-sistema2 {
+   background-color: rgba(128, 152, 97, 1);
+}
+
+.steps {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.step {
+   background-color: rgba(145, 171, 110, 0.84);
+   padding: 24px;
+   margin: 10px;
+   border-radius: 8px;
+   width: 300px;
+   text-align: center;
+}
+
+.step-name-box{
+   border-radius: 20px;
+   background-color: rgba(78, 76, 76, 0.411);
+   width: 200px;
+   height: 40px;
+   margin-left: 50px;
+}
+
+.step-name {
+   color: #ffffff;
+   margin-bottom: 10px;
+   font-size: 25px;
+   font-weight: 800;
+}
+
+#download-box {
+   width: 75%;
+   max-width: calc(100% - 10px);
+   background-color: rgb(86, 116, 46);
+   margin: 20px auto;
+   padding: 20px;
+   border-radius: 30px;
+   text-align: center;
+   color: white;
+}
+
+.download-button {
+   display: inline-block;
+   background-color: #1a6cd8;
+   color: white;
+   padding: 20px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: -55px;
+   transition: background-color 0.3s;
+   margin-right: calc(60% - 200px); ;
+
+}
+
+.download-button:hover {
+   background-color: #185eb9;;
+}
+
+#left-part-download-box{
+   margin-right: calc(60% - 90px);
+}
+
+#right-part-download-box{
+   margin-left: calc(60% - 130px);
+   margin-top: -55px;
+}
+
+#github-link{
+   max-width: 10%;
+
+}
