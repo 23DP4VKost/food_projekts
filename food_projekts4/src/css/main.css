@@ -134,8 +134,10 @@ header {
    font-weight: 800;
 }
 
-#download-box {
-   width: 75%;
+.download-box {
+   width: 45%;
+   min-height: fit-content;
+   max-height: fit-content;
    max-width: calc(100% - 10px);
    background-color: rgb(86, 116, 46);
    margin: 20px auto;
@@ -143,6 +145,7 @@ header {
    border-radius: 30px;
    text-align: center;
    color: white;
+   
 }
 
 .download-button {
@@ -150,11 +153,11 @@ header {
    background-color: #1a6cd8;
    color: white;
    padding: 20px 20px;
-   text-decoration: none;
    border-radius: 5px;
    margin-top: -55px;
    transition: background-color 0.3s;
-   margin-right: calc(60% - 200px); ;
+   margin-right:5px;
+   margin-top: 1px;
 
 }
 
@@ -162,16 +165,8 @@ header {
    background-color: #185eb9;;
 }
 
-#left-part-download-box{
-   margin-right: calc(60% - 90px);
-}
-
-#right-part-download-box{
-   margin-left: calc(60% - 130px);
-   margin-top: -55px;
-}
 
 #github-link{
-   max-width: 10%;
+   width:180px
 
 }
