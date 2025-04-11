@@ -7,6 +7,11 @@ body {
    background-color: beige(153, 153, 153);
 }
 
+#p{
+   color: black;
+   text-align: center;
+}
+
 header {
    background-color: rgba(145, 171, 110, 1);
    color: white;
@@ -38,6 +43,9 @@ header {
 .name {
    margin: 0;
    font-size: 2em;
+   text-align: center; /* Centers text inside the element */
+   display: block; /* Ensures the element behaves like a block */
+   margin: 0 auto
 }
 
 .nav-bar {
@@ -63,6 +71,10 @@ header {
    filter: brightness(50%);
    margin-top: 20px;
    border-radius: 20px;
+}
+
+#hero-text{
+   color: red;
 }
 
 .name-box {
@@ -168,5 +180,21 @@ header {
 
 #github-link{
    width:180px
-
 }
+
+#footer{
+   background-color: rgba(145, 171, 110, 0.84);
+   padding: 24px;
+   margin: 10px;
+   border-radius: 18px;
+   height: 5px;
+   width: auto
+}
+
+#footer > p{
+   margin-top:-10px;
+   text-align: center;
+}
+   
+
+   
