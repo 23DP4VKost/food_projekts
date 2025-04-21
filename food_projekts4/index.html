@@ -31,47 +31,94 @@
         </div>
 
         <div class="par-sistema">
-            <div id="text-sistema1">
-                <p>Sistēma ir izstrādāta, lai palīdzētu lietotājiem aprēķināt makroelementus (olbaltumvielas, taukus, ogļhidrātus) un kalorijas, ko viņi patērē, ēdot dažādus pārtikas produktus. Sistēma sastāv no četriem galvenajiem failiem:</p>
+          <p>Sistēma ir izstrādāta, lai palīdzētu lietotājiem aprēķināt makroelementus (olbaltumvielas, taukus, ogļhidrātus) un kalorijas, ko viņi patērē, ēdot dažādus pārtikas produktus.Sistēma sastāv no 9 galvenajiem failiem:</p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <h3><bold>AppTest.java</bold></h3>
+                <p>This is the main application file. It provides a menu-driven interface for users to interact with the food library. Users can add, view, edit, delete, sort, and save food items through this file.</p>
+            </div>
+            
+            <div class="column">
+                <h3><bold>Food100g.java</bold></h3>
+                <p>This file defines the `Food100g` class, which represents the nutritional values of food per 100 grams. It includes properties like protein, fat, carbs, and calories.</p>
             </div>
 
-            <div id="text-sistema2">
-                <p>AppTest.java: Šis ir galvenais lietojumprogrammas fails, kas nodrošina lietotāja saskarni un kontrolē lietojumprogrammas darbību. Lietotāji var pievienot, rediģēt, dzēst pārtikas produktus, aprēķināt makroelementus un saglabāt datus CSV failā.</p>
+            <div class="column">
+                <h3><bold>Food.java</bold></h3>
+                <p>This file extended by the `Food100g` class to include the quantity of food consumed. It calculates total nutritional values (protein, fat, carbs, and calories) based on the quantity.</p>
             </div>
+
         </div>
+
+        <div class="row">
+            <div class="column">
+                <h3 class="row-upper-"><bold>FoodAdd.java</bold></h3>
+                <p>This file provides functionality to add new food items to the library. It collects user input for food details and calculates nutritional values based on the quantity consumed.</p>
+            </div>
+
+            <div class="column">
+                <h3><bold>Library.java</bold></h3>
+                <p>This file manages the food library. It includes methods to add, edit, delete, view, and sort food items. It also provides functionality to display the library with optional sorting based on user input.</p>
+            </div>
+
+            <div class="column">
+                <h3><bold>inFileWriter.java</bold></h3>
+                <p>This file contains the logic for writing food data to a file. It formats the data into a table-like structure and saves it to a `.txt` file.</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <h3><bold>saveFile.java</bold></h3>
+                <p>This file handles saving the food library to a text file. It uses the `inFileWriter` class to write the food data into a formatted file.</p>
+            </div>
+
+            <div class="column">
+                <h3><bold>ConsoleColors.java</bold></h3>
+                <p>This file provides ANSI escape codes for styling console output, including text colors, background colors, bold text, and underlined text. It is used to enhance the visual appearance of console messages.</p>
+            </div>
+
+            <div class="column">
+                <h3><bold>clearConsole.java</bold></h3>
+                <p>This file contains a utility method to clear the console screen by printing ANSI escape sequences. It is used to refresh the console display.</p></div>
+          </div>
+
+        </div> 
+
     </section>
+
 
     <section id="celvedis">
         <div class="name-box">
             <h2>Ceļvedis</h2>
         </div>
 
-        <section id="reasons" class="section">
-            <h2>Reasons</h2>
+        <div class="steps">
 
-            <div class="steps">
-                <div class="step">
-                    <div class="step-name-box">
-                        <h3 class="step-name">Solis 1</h3>
-                    </div>
-                    <p>Ievadiet savus datus un izvēlieties pārtikas produktus.</p>
+            <div class="step">  
+                <div class="step-name-box">
+                    <h3 class="step-name">Solis 1</h3>
                 </div>
-
-                <div class="step">
-                    <div class="step-name-box">
-                    <h3 class="step-name">Solis 2</h3>
-                    </div>
-                    <p>Aprēķiniet makroelementus un kalorijas.</p>
-                </div>
-
-                <div class="step">
-                    <div class="step-name-box">
-                    <h3 class="step-name">Solis 3</h3>
-                    </div>
-                    <p>Saglabājiet datus CSV failā vai analizējiet rezultātus.</p>
-                </div>
+                <p>Ievadiet savus datus un izvēlieties pārtikas produktus.</p>
             </div>
-        </section>
+
+            <div class="step">
+                <div class="step-name-box">
+                    <h3 class="step-name">Solis 2</h3>
+                </div>
+                <p>Aprēķiniet makroelementus un kalorijas.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-name-box">
+                    <h3 class="step-name">Solis 3</h3>
+                </div>
+                <p>Saglabājiet datus CSV failā vai analizējiet rezultātus.</p>
+            </div>
+        </div>
     </section>
 
     <section id="download">
@@ -81,7 +128,7 @@
 
         <div class="download-box">
             <p>Lejupielādējiet mūsu lietojumprogrammu caur spodzinu, <br>lai sāktu aprēķināt savus makroelementus un kalorijas!</p>  
-            <a target="_blank" href="src/" class="download-button">Lejupielādēt</a>
+            <a target="_blank" href="" class="download-button">Lejupielādēt</a>
         </div>
         
      <p id="p">vai</p>
