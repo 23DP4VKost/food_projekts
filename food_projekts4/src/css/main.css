@@ -24,8 +24,8 @@ header {
 .header {
    display: flex;
    align-items: center;
-   justify-content: space-between;
-   max-width: 1200px; 
+   justify-content: space-between; 
+   max-width: 1400px; 
    margin: 0 auto;
 }
 
@@ -48,6 +48,7 @@ header {
 }
 
 .nav {
+
    color: #fff;
    padding: 0.5rem 1rem;
    border-radius: 0.25rem;
@@ -112,6 +113,10 @@ header {
    font-weight: 600;
 }
 
+.par-sistema{
+   text-align: center;
+
+}
 .row {
    display: flex;
    flex-wrap: wrap;
@@ -149,7 +154,7 @@ header {
 .column:hover {
    transform: translateY(-0.25rem);
    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-   background-color: #558B2F;
+   background-color: #385f1e;
 }
 
 
@@ -165,7 +170,7 @@ header {
 }
 
 .step {
-   background-color: #ccb14d;
+   background-color: #ab974f;
    padding: 1.5rem;
    border-radius: 0.5rem;
    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
