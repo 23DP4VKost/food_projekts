@@ -214,16 +214,17 @@ header {
    font-size: 1.1rem;
 }
 
-.download-button {
+#download-button {
    display: inline-block;
    background-color: #1E88E5;
    color: white;
    padding: 0.75rem 1.5rem;
    border-radius: 0.25rem;
    text-decoration: none;
-   font-weight: 500;
+   font-weight: 600;
    margin-top: 1rem;
    transition: background-color 0.2s ease-in-out;
+   cursor: pointer;
 }
 
 .download-button:hover {
@@ -241,7 +242,7 @@ header {
 
 footer {
    height: 50px;
-   background-color: #388E3C;
+   background: linear-gradient(90deg, #adaf4c, #81C784);
    color: white;
    text-align: center;
    padding: 1rem;
