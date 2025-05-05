@@ -1,4 +1,3 @@
-
 document.querySelectorAll(".nav-bar a").forEach((link) => {
     link.addEventListener("click", function (event) {
         event.preventDefault();
@@ -17,7 +16,7 @@ document.querySelectorAll(".nav-bar a").forEach((link) => {
 document.getElementById("download-button").addEventListener("click", function() {
     const link = document.createElement("a");
     
-    link.href = "src/project_partiku_calculator.zip";
+    link.href ="src/project_partiku_calculator.zip";
     link.download = "project_partiku_calculator.zip";
     document.body.appendChild(link);
     link.click();
