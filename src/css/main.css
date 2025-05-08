@@ -3,9 +3,7 @@ body {
    margin: 0;
    padding: 0;
    line-height: 1.6;
-   color: #444; 
    background-color: #f8f8f8;
-
 }
 
 p{
@@ -48,7 +46,6 @@ header {
 }
 
 .nav {
-
    color: #fff;
    padding: 0.5rem 1rem;
    border-radius: 0.25rem;
@@ -70,7 +67,7 @@ header {
    overflow: hidden; 
    border-radius: 0.5rem;
    margin-bottom: 2rem;
-   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+   box-shadow: 0 0.25rem 0.5rem black;
 }
 
 #hero-img {
@@ -80,8 +77,6 @@ header {
    filter: brightness(40%); 
 
 }
-
-
 
 #hero-text {
    position: absolute;
@@ -156,7 +151,6 @@ header {
    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
    background-color: #385f1e;
 }
-
 
 .steps {
    display: flex;
